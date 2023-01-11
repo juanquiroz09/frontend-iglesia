@@ -3,18 +3,18 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { CredoComponent } from './components/credo/credo.component';
-import { HorarioComponent } from './components/horario/horario.component';
-import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from "./components/error/error.component";
+import { VisitanosComponent } from "./components/visitanos/visitanos.component";
+import { SermonesComponent } from "./components/sermones/sermones.component";
 
 const appRoutes: Routes = [
   {path: '', component: InicioComponent},
   {path: 'inicio', component: InicioComponent},
   {path: 'conocenos',component: ConocenosComponent},
   {path: 'credo',component: CredoComponent},
-  {path: 'horario',component: HorarioComponent},
-  {path: 'ubicacion',component: UbicacionComponent},
+  {path: 'sermones',component: SermonesComponent},
+  {path: 'visitanos',component: VisitanosComponent},
   {path: '**',component: ErrorComponent},
 ]
 
