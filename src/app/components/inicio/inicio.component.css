@@ -1,20 +1,20 @@
 /*Logo*/
 #logo{
-  width: 250px;
-  margin-left: 320px;
+  width: 400px;
+  margin-left: 100px;
   margin-top: 60px;
   position: absolute;
 }
 .container {
   margin-top: -55px;
-  background: url('/assets/img/mountain-1.jpg') no-repeat center center/cover;
+  background: url('/assets/img/mountain.png') no-repeat center center/cover;
   background-size: 100% 100%;
 }
 
 #content {
   margin: 0px auto;
   width: 75%;
-  height: 1000px;
+  height: 1500px;
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
@@ -30,7 +30,7 @@
 }
 /*Seccion*/
 #seccion-1{
-  margin-top: 440px;
+  margin-top: 640px;
 }
 /*Seccion 2*/
 #seccion-2{
