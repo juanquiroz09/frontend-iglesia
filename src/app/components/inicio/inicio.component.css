@@ -1,7 +1,7 @@
 /*Logo*/
 #logo{
-  width: 400px;
-  margin-left: 100px;
+  width: 350px;
+  margin-left: 140px;
   margin-top: 60px;
   position: absolute;
 }
@@ -9,6 +9,7 @@
   margin-top: -55px;
   background: url('/assets/img/mountain.png') no-repeat center center/cover;
   background-size: 100% 100%;
+  color: white;
 }
 
 #content {
@@ -39,6 +40,10 @@
   padding: 10px;
   margin-top: -30px;
 
+}
+#seccion-2 a {
+  color: rgb(91, 136, 194);
+  text-decoration: none;
 }
 /*Articulos*/
 #articulo-1{
@@ -88,59 +93,4 @@ text-decoration: none;
   padding-top: 10px;
   color: black;
   text-decoration: none;
-}
-
-/*
-Footer
-*/
-#footer{
-  /*border: 1px solid white;*/
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#redes{
-  width: 380px;
-  display: flex;
-}
-#redes img{
-  width: 40px;
-  margin-left: 45px;
-}
-
-#logo-footer{
-  width: 380px;
-  display: flex;
-  font-size: 20px;
-  padding: 5px;
-  justify-content: center;
-  margin-top: -10px;
-}
-
-#ibp-1 {
-  margin-top: 15px;
-  font-size: 40px;
-}
-
-#ibp-2{
-  border-right: thick solid white;
-  position: absolute;
-  height: 80px;
-  margin-left: -70px;
-}
-
-#ibp-3 {
-  margin-top: 15px;
-  font-size: 20px;
-}
-
-#ubicacion{
-  width: 380px;
-  display: flex;
-}
-#ubicacion img{
-  width: 40px;
-  margin-left: 40px;
 }

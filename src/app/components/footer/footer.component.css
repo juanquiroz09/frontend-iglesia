@@ -1,0 +1,56 @@
+/*
+Footer
+*/
+#footer{
+  /*border: 1px solid white;*/
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #302023;
+}
+
+#redes{
+  width: 380px;
+  display: flex;
+}
+#redes img{
+  width: 40px;
+  margin-left: 45px;
+}
+
+#logo-footer{
+  width: 380px;
+  display: flex;
+  font-size: 20px;
+  padding: 5px;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+#ibp-1 {
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+#ibp-2{
+  margin-top: 10px;
+  border-right: thick solid white;
+  position: absolute;
+  height: 50px;
+  margin-left: -70px;
+}
+
+#ibp-3 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#ubicacion{
+  width: 380px;
+  display: flex;
+}
+#ubicacion img{
+  width: 40px;
+  margin-left: 40px;
+}

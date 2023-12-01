@@ -5,11 +5,14 @@
 }
 body{
   height: 50%;
-  color: white;
   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 /*Barra de navegación
 */
+header{
+  border-radius: 0%;
+}
+
 header ul {
   display: flex;
   justify-content: space-evenly;

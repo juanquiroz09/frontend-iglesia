@@ -9,6 +9,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/error/error.component';
 import { VisitanosComponent } from './components/visitanos/visitanos.component';
 import { SermonesComponent } from './components/sermones/sermones.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SermonesComponent } from './components/sermones/sermones.component';
     InicioComponent,
     ErrorComponent,
     VisitanosComponent,
-    SermonesComponent
+    SermonesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
